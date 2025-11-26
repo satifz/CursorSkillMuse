@@ -1,0 +1,28 @@
+project_id = "ilczqqlrzwddmsmiimlg"
+
+[functions.lessons-from-url]
+verify_jwt = true
+
+[functions.lessons-list]
+verify_jwt = true
+
+[functions.lessons-detail]
+verify_jwt = true
+
+[functions.lessons-quiz]
+verify_jwt = true
+
+[functions.skillmuse-process-url]
+verify_jwt = true
+
+[functions.skillmuse-lessons-list]
+verify_jwt = true
+
+[functions.skillmuse-lesson-detail]
+verify_jwt = true
+
+[functions.password-reset-request]
+verify_jwt = false
+
+[functions.password-reset-confirm]
+verify_jwt = false
